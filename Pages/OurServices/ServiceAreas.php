@@ -1,5 +1,5 @@
 <?php
-define('DS', "\\");
+define('DS', "/");
 define('DocRoot', $_SERVER['DOCUMENT_ROOT'].DS);
 include DocRoot . '/AdminPanel\Includes\Index.php';
 /**
