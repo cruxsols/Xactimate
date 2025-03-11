@@ -1,12 +1,13 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Constants\Constants.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Constants\Data.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Constants\Links.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Helper\Menu.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\PHPMailer\index.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Requests\SendSampleFrom.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Requests\ContactForm.php';
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Requests\GetAQuoteFrom.php';
+
+include DocRoot.'AdminPanel'.DS.'Constants'.DS.'Constants.php';
+include DocRoot.'AdminPanel'.DS.'Constants'.DS.'Data.php';
+include DocRoot.'AdminPanel'.DS.'Constants'.DS.'Links.php';
+include DocRoot.'AdminPanel'.DS.'Helper'.DS.'Menu.php';
+include DocRoot.'AdminPanel'.DS.'PHPMailer'.DS.'index.php';
+include DocRoot.'AdminPanel'.DS.'Requests'.DS.'SendSampleFrom.php';
+include DocRoot.'AdminPanel'.DS.'Requests'.DS.'ContactForm.php';
+include DocRoot.'AdminPanel'.DS.'Requests'.DS.'GetAQuoteFrom.php';
 
 use AdminPanel\Constants\Constants;
 use AdminPanel\Constants\Data;

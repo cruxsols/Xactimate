@@ -1,5 +1,5 @@
 <?php
-//include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Constants\Links.php';
+//include DocRoot.'/AdminPanel\Constants\Links.php';
 use AdminPanel\Constants\Links;
 ?>
 <div data-elementor-type="header" data-elementor-id="11" class="elementor elementor-11 elementor-location-header"

@@ -1,12 +1,14 @@
 <?php
-include 'AdminPanel\Includes\Index.php';
+define('DS', "\\");
+define('DocRoot', $_SERVER['DOCUMENT_ROOT'].DS);
+include DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
 /**
  * @var string $templatesPath
  * @var string $componentsPath
  */
 
-$homePath = $componentsPath.'Home/';
-$inPageCssPath = $assetsPath.'Css/Home/InPageCss.php';
+$homePath = $componentsPath.'Home'.DS;
+$inPageCssPath = $assetsPath.'Css'.DS.'Home'.DS.'InPageCss.php';
 ob_start();
 ?>
 <div data-elementor-type="wp-page" data-elementor-id="300" class="elementor elementor-300"

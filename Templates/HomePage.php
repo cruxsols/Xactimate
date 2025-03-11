@@ -1,12 +1,12 @@
 <?php
-require_once 'AdminPanel\Includes\Index.php';
+require_once DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
 /**
  * @var string $basePath
  * @var string $layoutPath
  * @var string $assetsPath
  * @var string $mainContent
  */
-$commonForAllPages = $assetsPath.'Css/CommonForAllPages.php';
+$commonForAllPages = $assetsPath.'Css'.DS.'CommonForAllPages.php';
 ?>
 
 

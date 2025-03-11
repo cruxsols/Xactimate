@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Includes\Index.php';
+require_once DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
 /**
  * @var string $basePath
  * @var string $layoutPath
@@ -8,8 +8,8 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Includes\Index.php';
  */
 
 //$hideFooterTop = $hideFooterTop??false;
-$innerPageCommonCss = $assetsPath.'Css/InnerPage/Common.php';
-$commonForAllPages = $assetsPath.'Css/CommonForAllPages.php';
+$innerPageCommonCss = $assetsPath.'Css'.DS.'InnerPage'.DS.'Common.php';
+$commonForAllPages = $assetsPath.'Css'.DS.'CommonForAllPages.php';
 ?>
 
 

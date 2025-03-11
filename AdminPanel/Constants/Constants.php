@@ -31,38 +31,38 @@ class Constants{
     }
     public static function assetsUrl()
     {
-        return self::baseUrl().'Assets/';
+        return self::baseUrl().'Assets'.DS;
     }
 
 
     public static function basePath()
     {
-        return $_SERVER['DOCUMENT_ROOT'];
+        return DocRoot;
     }
 
     public static function assetsPath()
     {
-        return self::basePath().'/Assets/';
+        return self::basePath().'Assets'.DS;
     }
 
     public static function componentsPath()
     {
-        return self::basePath().'/Components/';
+        return self::basePath().'Components'.DS;
     }
 
     public static function pagesPath()
     {
-        return self::basePath().'/Pages/';
+        return self::basePath().'Pages'.DS;
     }
 
     public static function templatesPath()
     {
-        return self::basePath().'/Templates/';
+        return self::basePath().'Templates'.DS;
     }
 
     public static function layoutPath()
     {
-        return self::basePath().'/Layout/';
+        return self::basePath().'Layout'.DS;
     }
 
 

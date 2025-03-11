@@ -10,7 +10,7 @@ $hideFooterTop = $hideFooterTop??false;
 <div data-elementor-type="footer" data-elementor-id="17" class="elementor elementor-17 elementor-location-footer"
      data-elementor-post-type="elementor_library">
 
-    <?php if(!$hideFooterTop){include $componentsPath . '/RequestNowSections/Type1.php';} ?>
+    <?php if(!$hideFooterTop){include $componentsPath . 'RequestNowSections'.DS.'Type1.php';} ?>
     <section
             class="elementor-section elementor-top-section elementor-element elementor-element-1be90047 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="1be90047" data-element_type="section"

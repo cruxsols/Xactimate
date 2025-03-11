@@ -1,5 +1,7 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Includes\Index.php';
+define('DS', "\\");
+define('DocRoot', $_SERVER['DOCUMENT_ROOT'].DS);
+include DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
 
 /**
  * @var string $templatesPath
@@ -9,7 +11,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/AdminPanel\Includes\Index.php';
  * @var string $componentsPath
  */
 
-$inPageCssPath = $assetsPath.'Css/GetAQuote/InPageCss.php';
+$inPageCssPath = $assetsPath.'Css'.DS.'GetAQuote'.DS.'InPageCss.php';
 $pageTitle = "Get A Quote";
 $breadcrumbs = [
     ['title' => 'Home', 'link' => $baseUrl],
