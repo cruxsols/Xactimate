@@ -2,7 +2,11 @@
 namespace AdminPanel\Constants;
 class Constants{
 
-    const Domain = "elementorthemesite.com";
+    //const DomainName = "xactimate.cruxsols.com";
+    //const DomainProtocol = "https";
+    const DomainName = "elementorthemesite.com";
+    const DomainProtocol = "http";
+    const Domain = self::DomainProtocol."://".self::DomainName;
 
     const SMTP_DEFAULT_HOST = 'sandbox.smtp.mailtrap.io';
     const SMTP_DEFAULT_PORT = 2525;

@@ -8,8 +8,8 @@ require_once DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
  */
 
 //$hideFooterTop = $hideFooterTop??false;
-$innerPageCommonCss = $assetsPath.'Css'.DS.'InnerPage'.DS.'Common.php';
-$commonForAllPages = $assetsPath.'Css'.DS.'CommonForAllPages.php';
+$innerPageCommonCss = $assetsPath.'CSS'.DS.'InnerPage'.DS.'Common.php';
+$commonForAllPages = $assetsPath.'CSS'.DS.'CommonForAllPages.php';
 ?>
 
 

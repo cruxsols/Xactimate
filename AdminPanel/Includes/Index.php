@@ -22,7 +22,8 @@ $componentsPath = Constants::componentsPath();
 $pagesPath = Constants::pagesPath();
 $templatesPath = Constants::templatesPath();
 $layoutPath = Constants::layoutPath();
-$assetsJsonUrl = 'http:\/\/elementorthemesite.com\/Assets\/';
+$siteTitle = "qzsim";//'Accurate Construction Estimating Services | Construct Estimates';
+$assetsJsonUrl = Constants::DomainProtocol.':\/\/'.Constants::DomainName.'\/Assets\/';
 $topMenu = Links::topMenu();
 
 $footerCopyrightText = Data::getFooterCopyrightText();

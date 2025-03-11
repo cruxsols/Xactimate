@@ -11,7 +11,7 @@ include DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
  * @var string $componentsPath
  */
 
-$inPageCssPath = $assetsPath.'Css'.DS.'GetAQuote'.DS.'InPageCss.php';
+$inPageCssPath = $assetsPath.'CSS'.DS.'GetAQuote'.DS.'InPageCss.php';
 $pageTitle = "Get A Quote";
 $breadcrumbs = [
     ['title' => 'Home', 'link' => $baseUrl],

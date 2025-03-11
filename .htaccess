@@ -2,7 +2,7 @@
 RewriteEngine On
 
 # Redirect root URL to index.html
-RewriteRule ^$ index.php [L]
+RewriteRule ^$ Pages/Home/Index.php [L]
 
 # Rewrite URLs for About us
 RewriteRule ^about-us$ Pages/AboutUs/Index.php [L]

@@ -8,7 +8,7 @@ include DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
  */
 
 $homePath = $componentsPath.'Home'.DS;
-$inPageCssPath = $assetsPath.'Css'.DS.'Home'.DS.'InPageCss.php';
+$inPageCssPath = $assetsPath.'CSS'.DS.'Home'.DS.'InPageCss.php';
 ob_start();
 ?>
 <div data-elementor-type="wp-page" data-elementor-id="300" class="elementor elementor-300"

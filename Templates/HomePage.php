@@ -6,7 +6,7 @@ require_once DocRoot.'AdminPanel'.DS.'Includes'.DS.'Index.php';
  * @var string $assetsPath
  * @var string $mainContent
  */
-$commonForAllPages = $assetsPath.'Css'.DS.'CommonForAllPages.php';
+$commonForAllPages = $assetsPath.'CSS'.DS.'CommonForAllPages.php';
 ?>
 
 
