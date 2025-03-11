@@ -1,0 +1,37 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect root URL to index.html
+RewriteRule ^$ index.php [L]
+
+# Rewrite URLs for About us
+RewriteRule ^about-us$ Pages/AboutUs/Index.php [L]
+
+# Rewrite URLs for testimonials
+RewriteRule ^testimonials$ Pages/Testimonials/Index.php [L]
+
+# Rewrite URLs for services
+RewriteRule ^services/service-areas$ Pages/OurServices/ServiceAreas.php [L]
+
+# Rewrite URLs for Our Projects
+RewriteRule ^our-projects$ Pages/OurProjects/Index.php [L]
+
+# Rewrite URLs for Our Portfolio
+RewriteRule ^our-portfolio$ Pages/OurPortfolio/Index.php [L]
+
+# Rewrite URLs for blog posts
+RewriteRule ^our-blogs$ Pages/OurBlogs/List.php [L]
+RewriteRule ^our-blogs/what-is-a-soft-cost-in-construction$ Pages/OurBlogs/Post1.php [L]
+
+# Rewrite URL for contact page
+RewriteRule ^contact-us$ Pages/ContactUs/Index.php [L]
+# Rewrite URL for contact page
+RewriteRule ^send-email$ PHPMailer/index.php [L]
+RewriteRule ^get-a-quote$ Pages/GetAQuote/Index.php [L]
+
+# Ensure existing files and directories are accessible
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect any undefined URLs to a 404 page
+ErrorDocument 404 /404.html
