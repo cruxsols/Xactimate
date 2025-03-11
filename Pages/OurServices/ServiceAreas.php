@@ -1,7 +1,7 @@
 <?php
 define('DS', "/");
 define('DocRoot', $_SERVER['DOCUMENT_ROOT'].DS);
-include DocRoot . '/AdminPanel\Includes\Index.php';
+include DocRoot . 'AdminPanel'.DS.'Includes'.DS.'Index.php';
 /**
  * @var string $templatesPath
  * @var string $baseUrl
@@ -9,7 +9,7 @@ include DocRoot . '/AdminPanel\Includes\Index.php';
  * @var string $componentsPath
  */
 
-$inPageCssPath = $assetsPath . 'Css'.DS.'OurServices'.DS.'InPageCss.php';
+$inPageCssPath = $assetsPath . 'CSS'.DS.'OurServices'.DS.'InPageCss.php';
 $pageTitle = "Our Service Areas";
 $breadcrumbs = [
     ['title' => 'Home', 'link' => $baseUrl],

@@ -9,7 +9,7 @@ include DocRoot . 'AdminPanel'.DS.'Includes'.DS.'Index.php';
  * @var string $componentsPath
  */
 
-$inPageCssPath = $assetsPath . 'Css'.DS.'OurBlogs'.DS.'InPageCss.php';
+$inPageCssPath = $assetsPath . 'CSS'.DS.'OurBlogs'.DS.'InPageCss.php';
 $pageTitle = "Our Blogs";
 $breadcrumbs = [
     ['title' => 'Home', 'link' => $baseUrl],
