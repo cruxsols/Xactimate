@@ -1,5 +1,7 @@
 <?php
 namespace AdminPanel\Constants;
+use AdminPanel\Constants\Constants;
+use AdminPanel\Constants\Links;
 class Data {
 
     private static $footerMenus = array();
@@ -44,7 +46,7 @@ class Data {
     }
 
     public static function getFooterLogoUrl() {
-        $footerLogoUrl = 'http://elementorthemesite.com/Assets/uploads/2023/07/Group-237802.svg';
+        $footerLogoUrl = Constants::Domain.'Assets/uploads/2023/07/Group-237802.svg';
         self::$footerLogoUrl = $footerLogoUrl;
         return self::$footerLogoUrl;
     }
@@ -103,13 +105,13 @@ class Data {
     public static function getFooterMenus() {
 
         $footerMenus[0]['title'] = 'Home';
-        $footerMenus[0]['link'] = 'http://elementorthemesite.com/index.html';
+        $footerMenus[0]['link'] = Links::Home;
         $footerMenus[1]['title'] = 'About Us';
-        $footerMenus[1]['link'] = 'http://elementorthemesite.com/about-us/index.html';
+        $footerMenus[1]['link'] = Links::AboutUs;
         $footerMenus[2]['title'] = 'Blog';
-        $footerMenus[2]['link'] = 'http://elementorthemesite.com/our-blogs/index.html';
+        $footerMenus[2]['link'] = Links::OurBlogs;
         $footerMenus[3]['title'] = 'Privacy Policy';
-        $footerMenus[3]['link'] = 'http://elementorthemesite.com/privacy-policy/index.html';
+        $footerMenus[3]['link'] = '#';
 
         self::$footerMenus = $footerMenus;
         return self::$footerMenus;
