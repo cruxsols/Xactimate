@@ -1,3 +1,8 @@
+<?php
+
+use AdminPanel\Constants\Links;
+
+?>
 <section
         class="elementor-section elementor-top-section elementor-element elementor-element-f6fb8c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="f6fb8c8" data-element_type="section" id="services">
@@ -15,9 +20,12 @@
                 <div class="elementor-element elementor-element-a028f8b elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading"
                      data-id="a028f8b" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
-                        <p class="elementor-heading-title elementor-size-default">Whether you're a general
-                            Contractor, Subcontractor, Lender, Builder, Architect, Engineering Firm, or Vendor, we
-                            cater to all your estimating needs.</p></div>
+                        <p class="elementor-heading-title elementor-size-default">
+                            Whether you're a general <strong>contractor, subcontractor, builder, architect, or
+                                developer</strong>,
+                            we provide <strong>precise and reliable cost estimation services</strong> to ensure your
+                            projects stay <strong>on budget and on time</strong>.
+                        </p></div>
                 </div>
                 <section
                         class="elementor-section elementor-inner-section elementor-element elementor-element-ba447cd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -91,10 +99,15 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Construct Estimates offers a wide range of construction cost
-                                                    estimating services and cost management solutions tailored to
-                                                    meet the unique needs of the ever-growing construction
-                                                    industry. </p>
+                                                    Our cost estimation services cover a <strong>
+                                                        wide range of construction projects
+                                                    </strong>, offering accurate material and labor cost calculations.
+                                                    We use
+                                                    <strong>industry-approved tools</strong>
+                                                    to ensure
+                                                    <strong> transparent, data-driven estimates</strong>
+                                                    that help you make informed financial decisions.
+                                                </p>
 
                                             </div>
 
@@ -147,10 +160,12 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Our professional estimators excel in producing accurate takeoffs
-                                                    that form a solid foundation for your bidding process. By
-                                                    meticulously analyzing construction drawings, sketches, and
-                                                    project specifications... </p>
+                                                    Get <strong>detailed material quantity takeoffs</strong> for all
+                                                    trades, including <strong> lumber, concrete, steel, drywall, and
+                                                        finishing materials</strong> . Our precise <strong>quantity
+                                                        assessments</strong> help reduce <strong>waste and unnecessary
+                                                        expenses</strong> , optimizing your procurement process.
+                                                </p>
 
                                             </div>
 
@@ -189,10 +204,12 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    At Construct Estimates, we take pride in our track record of
-                                                    successful projects with satisfied clients. We have provided
-                                                    comprehensive estimates for diverse residential
-                                                    endeavors... </p>
+                                                    We specialize in <strong> accurate cost estimation for residential
+                                                        projects </strong> , whether it’s a <strong> new home
+                                                        construction, renovation, or extension </strong> . Our estimates
+                                                    include <strong> structural, MEP, and interior finishing </strong>
+                                                    costs, ensuring a <strong> smooth and cost-effective building
+                                                        process </strong>. </p>
 
                                             </div>
 
@@ -263,9 +280,13 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Construct Estimates, your trusted partner for accurate and
-                                                    efficient commercial estimating services. Our precise and
-                                                    detailed approach empowers Contractors, Subcontractors... </p>
+                                                    Our commercial construction estimates are tailored for <strong>
+                                                        retail spaces, office buildings, hotels, and mixed-use
+                                                        developments </strong> . We provide a <strong> comprehensive
+                                                        cost breakdown </strong> , covering <strong> structural, MEP,
+                                                        and finishing work </strong> , ensuring <strong> competitive,
+                                                        market-driven pricing </strong>.
+                                                </p>
 
                                             </div>
 
@@ -328,10 +349,13 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Are you in need of professional industrial estimating services
-                                                    that can save you money and improve the accuracy of your
-                                                    estimates? We offer comprehensive quantity takeoffs, cost
-                                                    estimates, and analysis services to ... </p>
+                                                    For industrial projects like <strong> factories, warehouses, and
+                                                        infrastructure developments </strong> , we deliver <strong>
+                                                        highly precise cost estimates </strong> . Our services include
+                                                    <strong> site preparation, structural steel, mechanical systems, and
+                                                        equipment cost analysis </strong>, ensuring seamless project
+                                                    execution.
+                                                </p>
 
                                             </div>
 
@@ -382,10 +406,12 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Are you tired of grappling with incomplete drawing plans and
-                                                    struggling to prepare accurate estimates? This uncertainty makes
-                                                    it challenging to prepare accurate estimates and can hinder your
-                                                    progress... </p>
+                                                    Struggling with <strong>early-stage cost planning</strong>? Our
+                                                    preliminary estimates provide a <strong>cost-effective
+                                                        roadmap </strong> for project feasibility, budgeting, and
+                                                    financial planning, helping you <strong> assess risks and secure
+                                                        funding with confidence </strong>.
+                                                </p>
 
                                             </div>
 
@@ -413,7 +439,11 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Get the hassle free estimates every month </p>
+                                                    Subscribe to our <strong> monthly estimating service</strong>and
+                                                    receive <strong>consistent, hassle-free estimates</strong>tailored
+                                                    to your needs. Stay ahead of the competition with <strong>accurate,
+                                                        fast, and regularly updated cost data</strong> .
+                                                </p>
 
                                             </div>
 
@@ -425,7 +455,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                               href="contact-us/index.html">
+                                               href="<?php echo Links::ContactUs ?>">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="15" viewBox="0 0 32 15" fill="none"><circle
@@ -459,8 +489,11 @@
                                                 </h6>
 
                                                 <p class="elementor-icon-box-description">
-                                                    Transform your commercial visions into tangible realities with
-                                                    us. </p>
+                                                    Trust us to <strong>turn your project vision into reality</strong>
+                                                    with a <strong>detailed, bid-ready cost estimation</strong>. Get
+                                                    precise cost calculations, reduce waste, and <strong>win more
+                                                        contracts</strong>with our expert services.
+                                                </p>
 
                                             </div>
 
@@ -472,7 +505,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                               href="contact-us/index.html">
+                                               href="<?php echo Links::ContactUs ?>">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="15" viewBox="0 0 32 15" fill="none"><circle
@@ -492,8 +525,7 @@
                 <div class="elementor-element elementor-element-2047fe6 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                      data-id="2047fe6" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <p>Have specific questions about our services? Check out our <a href="faqs/index.html">FAQs
-                                page</a> for detailed answers and get started with confidence.</p></div>
+                        </div>
                 </div>
             </div>
         </div>

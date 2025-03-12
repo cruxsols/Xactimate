@@ -1,3 +1,8 @@
+<?php
+
+use AdminPanel\Constants\Links;
+
+?>
 <section
         class="elementor-section elementor-top-section elementor-element elementor-element-e973e79 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="e973e79" data-element_type="section">
@@ -48,14 +53,14 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                               href="get-a-quote/index.html">
+                                               href="<?php echo Links::GetAQuote ?>">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="15" viewBox="0 0 32 15" fill="none"><circle
                             cx="7.5" cy="7.5" r="7" stroke="#0163BE"></circle><path
                             d="M31.3536 8.35355C31.5488 8.15829 31.5488 7.84171 31.3536 7.64645L28.1716 4.46447C27.9763 4.2692 27.6597 4.2692 27.4645 4.46447C27.2692 4.65973 27.2692 4.97631 27.4645 5.17157L30.2929 8L27.4645 10.8284C27.2692 11.0237 27.2692 11.3403 27.4645 11.5355C27.6597 11.7308 27.9763 11.7308 28.1716 11.5355L31.3536 8.35355ZM7 8.5H31V7.5H7V8.5Z"
                             fill="#0163BE"></path></svg>			</span>
-									<span class="elementor-button-text">Turbo charge Your Bids - Request Now!</span>
+									<span class="elementor-button-text">Get a Free Quote for Your Next Project! </span>
 					</span>
                                             </a>
                                         </div>

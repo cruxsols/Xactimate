@@ -18,6 +18,7 @@ ob_start();
     <?php include $homePath.'Section3.php';?>
     <?php include $homePath.'Section4.php';?>
     <?php include $homePath.'Section5.php';?>
+    <?php include $homePath.'SectionFAQ.php';?>
     <?php include $homePath.'Section6.php';?>
     <?php include $homePath.'Section7.php';?>
     <?php include $homePath.'Section8.php';?>

@@ -1,3 +1,6 @@
+<?php
+use AdminPanel\Constants\Links;
+?>
 <section
         class="elementor-section elementor-top-section elementor-element elementor-element-7fc0c93 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="7fc0c93" data-element_type="section"
@@ -13,38 +16,32 @@
                         <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-416636b"
                              data-id="416636b" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-f020672 elementor-invisible elementor-widget elementor-widget-heading"
+                                <!--<div class="elementor-element elementor-element-f020672 elementor-invisible elementor-widget elementor-widget-heading"
                                      data-id="f020672" data-element_type="widget"
                                      data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}"
                                      data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
                                         <h6 class="elementor-heading-title elementor-size-default">About US</h6>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="elementor-element elementor-element-faca989 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading"
                                      data-id="faca989" data-element_type="widget"
                                      data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}"
                                      data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Transform Your
-                                            Projects into <span>Profitable Realities</span></h2></div>
+                                        <h2 class="elementor-heading-title elementor-size-default"><span>Precision Estimating</span> for Contractors, Builders & Developers
+                                            </h2></div>
                                 </div>
                                 <div class="elementor-element elementor-element-6c5624c elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor"
                                      data-id="6c5624c" data-element_type="widget"
                                      data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Construct Estimates is your trusted partner in <strong>construction
-                                                estimating and material takeoff services</strong> to make the
-                                            bidding process easier for contractors and builders. With our
-                                            comprehensive services, we specialize in providing accurate local
-                                            pricing estimates and taking off entire projects. Our goal is to
-                                            transform contractors&#8217; potential projects into profitable
-                                            realities, allowing them to focus on other aspects of their business.
+                                        <p>
+                                            Are you looking for a <strong>fast, accurate, and cost-effective</strong> construction estimating service? Our team of skilled estimators provides
+                                            <strong>detailed material takeoffs, precise labor cost assessments, and bid-winning strategies</strong> tailored for <strong>contractors, developers, and builders</strong>.
+                                            We ensure that your project planning remains <strong>on budget, on schedule, and highly competitive in the bidding process</strong>.
+                                            Whether it's a <strong>residential, commercial, industrial, or infrastructure project</strong>, we have the expertise to help you <strong>streamline costs and improve project efficiency</strong>.
                                         </p>
-                                        <p>With over 10 years of experience in the construction industry, Construct
-                                            Estimates has built a solid reputation for delivering accurate material
-                                            estimates. Residential, commercial, civil, or industrial
-                                            projects—whatever the scope, our construction managers and quan</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-6afc7ff elementor-widget__width-initial ctNumberCountBar elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-counter"
@@ -97,7 +94,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                               href="about-us/index.html">
+                                               href="<?php echo Links::AboutUs?>">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon">
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="15" viewBox="0 0 32 15" fill="none"><circle
